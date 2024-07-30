@@ -1,0 +1,206 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul, 
+li{
+    list-style: none;
+}
+
+.container {
+    width: 1246px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 23px;
+}
+
+
+
+
+
+
+/*Header Css Start*/
+
+header.site-header {
+    background: #000;
+}
+
+header.site-header .header-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        padding: 20px 0;
+}
+
+header.site-header .header-wrap .site-branding {
+    line-height: 0;
+}
+
+header.site-header .header-wrap .site-branding a {
+    display: inline-block;
+}
+
+header.site-header .header-wrap .site-branding a img {
+    width: 306px;
+}
+
+header.site-header .header-wrap .site-navigation {}
+
+header.site-header .header-wrap .site-navigation ul {
+    display: flex;
+    align-items: center;
+}
+
+header.site-header .header-wrap .site-navigation ul li {
+    margin-left: 20px;
+}
+
+header.site-header .header-wrap .site-navigation ul li a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/*Hero Section Css Start*/
+
+.hero-section {
+    background: url(F:/jahanvi/psd-7/images/hero-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 220px 0;
+    text-align: center;
+}
+.hero-section .hero-wrap h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+}
+
+
+/*Join Society Section Css Start*/
+
+.join-society-section {
+    background: #f5f1eb;
+    padding: 100px 0;
+}
+
+.join-society-section .join-society-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.join-society-section .join-society-wrap span {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #bf783a;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.join-society-section .join-society-wrap h2 {
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 30px;
+}
+
+.join-society-section .join-society-wrap p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.join-society-section .join-society-wrap .join-society-content {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.join-society-section .join-society-wrap .join-society-img {
+    width: 50%;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    header.site-header .header-wrap .site-branding a img {
+    width: 200px;
+}
+    header.site-header .header-wrap .site-navigation ul li a {
+    font-size: 16px;
+    line-height: 22px;
+}
+.hero-section {
+    padding: 145px 0;
+}
+
+.join-society-section .join-society-wrap h2 {
+    font-size: 36px;
+    line-height: 40px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+header.site-header .header-wrap {
+    justify-content: center;
+    flex-direction: column;
+}
+header.site-header .header-wrap .site-branding {
+    margin-bottom: 20px;
+}
+header.site-header .header-wrap .site-navigation ul li:first-child {
+    margin-left: 0;
+}
+header.site-header .header-wrap .site-navigation ul li a {
+    text-align: center;
+    display: inline-block;
+}
+.hero-section {
+    padding: 100px 0;
+}
+.hero-section .hero-wrap h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.join-society-section .join-society-wrap {
+    flex-direction: column;
+}
+.join-society-section .join-society-wrap .join-society-content {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.join-society-section .join-society-wrap .join-society-img {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1366px) {}
+@media only screen and (max-width: 1280px) {}
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 320px) {}
